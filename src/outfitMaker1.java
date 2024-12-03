@@ -104,6 +104,20 @@ public class outfitMaker1 extends outfitMakerSecondary {
      }
 
      @Override
+     public void setShirt(String s) {
+         this.shirt = s;
+     }
+
+    @Override
+     public void setShoes(String s) {
+         this.shoes = s;
+     }
+
+     @Override
+     public void setPants(String s) {
+         this.pants = s;
+     }
+
     public void addOrRemoveItem(String type, String item, boolean isAdding) {
 
         if (isAdding) {
