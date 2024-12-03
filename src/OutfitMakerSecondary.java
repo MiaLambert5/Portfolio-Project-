@@ -4,6 +4,7 @@ import java.util.Set;
 import components.sequence.Sequence;
 import components.sequence.Sequence1L;
 import components.set.Set;
+import components.utilities.Reporter;
 import components.set.Set1L;
 
 
@@ -84,6 +85,12 @@ public abstract class OutfitMakerSecondary implements OutfitMaker {
     public final int hashCode() {
         return this.shirt().hashCode() * this.pants().hashCode()
             * this.shoes().hashCode();
+    }
+
+
+    @Override
+    public final String toString() {
+        Reporter.assertElseFatalError("Cannot do toString");
     }
 
 }```
