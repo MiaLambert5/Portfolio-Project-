@@ -87,4 +87,5 @@ alter my main method. Also planning on creating inner class to store information
 [2024.01.07]: https://github.com/jrg94/portfolio-project/releases/tag/v2024.01.07
 
 
-- Designed kernel implementation for outfitMaker component
+- Designed test suite for outfitMaker component
+- Designed two different use cases for outfitMaker component
