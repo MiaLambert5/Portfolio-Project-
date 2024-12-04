@@ -68,17 +68,18 @@ the following form: YYYY.0M.0D.
 - Added READMEs to key folders like `test` and `lib` to explain their purpose
 
 
-
-## 2024.10.03
+## 2024.10.17
 
 ### Added
 
-- Designed a proof of concept for outfitMaker component
+- Designed kernel and enhanced interfaces for outfitMaker component
 
 ### Updated
 
-- Changed design to include kernal implementations, one secondary implementation,
-and a main method
+- Changed design to include (plan on changing design to include enum so I dont have to use the same type, I just need to
+alter my main method. Also planning on creating inner class to store information about the clothing) ...
+
+```
 
 
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
